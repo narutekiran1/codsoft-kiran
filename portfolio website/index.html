@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Kiran-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: poppins, sans-serif;
+            
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color:rgb(166, 166, 225);
+        }
+         nav ul{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        
+        }
+       
+        .left{
+            font-size: 1.5rem;
+        }
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            height: 50vh;
+            margin: 120px 0;
+
+        }
+        .leftsection{
+           
+            font-size: 2rem;
+           
+            width: 30%;
+            margin: 70px 0;
+        }
+        .leftsection .buttons{
+           padding: 50px 0;
+
+        }
+        .leftsection .button{
+            padding: 12px;
+            background-color:rgb(207, 46, 207);
+            color: white;
+            border-radius: solid white 2px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .rightsection{
+            
+           
+            width: 40%;
+        }
+        img{
+            width: 80%;
+            margin: 1px 0;
+        }
+        .text-powderblue{
+            color: rgb(155, 95, 212);
+        }
+        .text-grey{
+            color: grey;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+        }
+        #element{
+            color: lavender;
+        }
+        #secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+        #secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+
+           
+            
+        }
+        #secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            
+            margin: 0 100px;
+
+
+
+
+        }
+
+        main hr{
+            border: 0;
+            background-color: #9c97f1;
+            height: 1px;
+            margin: 40px 90px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            
+          position: relative;
+          top: 80px;
+          width: 120px;
+          right: 40px;
+          font-size: 18px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            width: 120px;
+            top: 100px;
+            right: 40px;
+            color: rgb(80, 80, 135);
+        }
+        .footer{
+            background-color: rgb(37, 19, 37);
+            display: flex;
+            height: 233px;
+            padding: 23px 125px;
+            justify-content: space-evenly;
+            
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div{
+            width: 246px;
+        }
+        .footer .copyright{
+            color: grey;
+            text-align: center;
+        
+        }
+       
+       
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="left">
+            Kiran's Portfolio
+
+        </div>
+        <div class="right">
+            <ul>
+              <a href="index.html"><li>Home</li></a>
+              <a href="#secondsection"><li>about</li></a>
+              <a href="#thirdsection"><li>services</li></a>
+              <a href="#fourthsection"><li>projects</li></a>
+              <a href="#fifthsection"><li>contact us</li></a>
+            </ul>
+
+        </div>
+    </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hii, My name is <span class="text-powderblue">Kiran</span>
+                <div>
+                    <span>  and I am a Web devolper</span>
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="button">
+                       <b>
+                        Download resume
+                        </b>
+
+                    </button>
+                    <button class="button">
+                        <b>
+                        Visit Github
+                        </b>
+
+                    </button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+               <img src="./bg1.png"
+
+            </div>
+        </section>
+        <hr>
+        <section id="secondsection">
+            <span class="text-grey" >What i have done so far</span>
+             <h1>Work Experencises</h1>
+             <div class="box">
+                 <div class="vertical"><img class="image-top" src="./html.png" alt="devolper"/>
+                    <div  class="vertical-title">
+                        Html (2019-present)
+                    </div>
+                    <div class="vertical-desc">
+ 
+                         As when, I was in 11th & 12th standard. I have subject named as a informaton technology in that subject in both the years, I have html and from there i studied html  and now I am a HTML devolper.
+                     </div>
+                 </div>
+                 <div class="vertical"><img class="image-top" src="./css.png" alt="devolper"/>
+                    <div  class="vertical-title">
+                        CSS(2019-present)
+                    </div>
+                    <div class="vertical-desc">
+                        As after html i known about css which is used to style the html so i learnt it.
+ 
+                     </div>
+                 </div>
+                 <div class="vertical"><img class="image-top" src="./javscript.png" alt="devolper"/>
+                    <div  class="vertical-title">
+                        Javascript(2019-present)
+                    </div>
+                    <div class="vertical-desc">
+                        So to create responsive websites i learnt Javascript after that.
+ 
+                     </div>
+                 </div>
+                 <div class="vertical"><img class="image-top" src="./react (1).png" alt="devolper"/>
+                    <div  class="vertical-title">
+                        react.Js(2019-present)
+                    </div>
+                    <div class="vertical-desc">
+                        after some i time i known about reactjs that is also used to create the frontend of the websites so i learnt it.
+ 
+                     </div>
+                 </div>
+                 <div class="vertical"><img class="image-top" src="./cloudcomputing.png" alt="devolper"/>
+                    <div  class="vertical-title">
+                        Cloud Computing(2019-present)
+                    </div>
+                    <div class="vertical-desc">
+                        since i known that cloud Computing is the pillar of full stack web devolpment i started learning it
+                    
+ 
+                     </div>
+                 </div>
+                 
+                 
+                 
+         </section>
+         <hr>
+         <section id="thirdsection">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="service">
+                    <h3>SEO Optimization</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+         </section>
+         <hr>
+         <section id="fourthsection">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1</p>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2</p>
+                </div>
+                
+            </div>
+        </section>
+        <hr>
+
+        <section id="fifthsection">
+            <div class="container">
+                <form id="contact-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                   <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                   </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="response"></div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    
+    </main>
+    <footer>
+        <div class="footer">
+            
+            <div class="footer-first">
+                <h3>Kiran's Devolper Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="#secondsection"><li>about</li></a>
+                    <a href="#thirdsection"><li>services</li></a>
+                    <a href="#fourthsection"><li>projects</li></a>
+                    <a href="#fifthsection"><li>contact us</li></a>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="#secondsection"><li>about</li></a>
+                    <a href="#thirdsection"><li>services</li></a>
+                    <a href="#fourthsection"><li>projects</li></a>
+                    <a href="#fifthsection"><li>contact us</li></a>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="#secondsection"><li>about</li></a>
+                    <a href="#thirdsection"><li>services</li></a>
+                    <a href="#fourthsection"><li>projects</li></a>
+                    <a href="#fifthsection"><li>contact us</li></a>
+                </ul>
+            </div>
+            <div class="copyright">
+                www.kiran'sportfolio.com | All rights reserved ©
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web devolper.', '&amp; a student.'],
+        typeSpeed: 50,
+      });
+    </script>
+    
+</body>
+</html>
